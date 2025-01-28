@@ -80,7 +80,7 @@ public struct ClassicConfig : StyliticsUI.IWidgetConfig {
     public let backgroundColor: UIKit.UIColor
     public let cardGutter: CoreFoundation.CGFloat
     public let cardPeek: CoreFoundation.CGFloat
-    public init(cornerRadius: CoreFoundation.CGFloat = 14, backgroundColor: UIKit.UIColor = ClassicConfigColor.classicWidgetBackgroundColor.toUIColor, cardGutter: CoreFoundation.CGFloat = 12, cardPeek: CoreFoundation.CGFloat = 16)
+    public init(cornerRadius: CoreFoundation.CGFloat = 14, backgroundColor: UIKit.UIColor = .cyan, cardGutter: CoreFoundation.CGFloat = 12, cardPeek: CoreFoundation.CGFloat = 16)
   }
   public struct BottomLabel {
     public let ctaTitle: Swift.String
@@ -92,7 +92,7 @@ public struct ClassicConfig : StyliticsUI.IWidgetConfig {
     public let ctaPaddingVertical: CoreFoundation.CGFloat
     public let paddingVertical: CoreFoundation.CGFloat
     public let paddingHorizontal: CoreFoundation.CGFloat
-    public init(ctaTitle: Swift.String = Constants.SHOP_THIS_LOOK_TEXT, fontFamilyAndWeight: Swift.String = "SFProText-Regular", fontSize: CoreFoundation.CGFloat = 15, fontColor: UIKit.UIColor = .white, backgroundColor: UIKit.UIColor = ClassicConfigColor.classicFooterBackgroundColor.toUIColor, ctaBackgroundColor: UIKit.UIColor = ClassicConfigColor.classicShopThisLookBackgroundColor.toUIColor, cornerRadius: CoreFoundation.CGFloat = 16, ctaPaddingVertical: CoreFoundation.CGFloat = 7, ctaPaddingHorizontal: CoreFoundation.CGFloat = 14, paddingVertical: CoreFoundation.CGFloat = 16, paddingHorizontal: CoreFoundation.CGFloat = 20)
+    public init(ctaTitle: Swift.String = Constants.SHOP_THIS_LOOK_TEXT, fontFamilyAndWeight: Swift.String = "SFProText-Regular", fontSize: CoreFoundation.CGFloat = 15, fontColor: UIKit.UIColor = .red, backgroundColor: UIKit.UIColor = ClassicConfigColor.classicFooterBackgroundColor.toUIColor, ctaBackgroundColor: UIKit.UIColor = ClassicConfigColor.classicShopThisLookBackgroundColor.toUIColor, cornerRadius: CoreFoundation.CGFloat = 16, ctaPaddingVertical: CoreFoundation.CGFloat = 7, ctaPaddingHorizontal: CoreFoundation.CGFloat = 14, paddingVertical: CoreFoundation.CGFloat = 16, paddingHorizontal: CoreFoundation.CGFloat = 20)
   }
   public struct Bullet {
     public let unselectedColor: UIKit.UIColor
